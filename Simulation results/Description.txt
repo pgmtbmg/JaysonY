@@ -1,0 +1,16 @@
+The ¡°Simulation figure¡±file only retains the experimental group that detected the error.
+
+	Simulation result file name£º	num represent a simulation sequence
+		num_2              Indicates the contrast before and after the width threshold setting of the wavelet packet after the second decomposition
+		numd               Indicates the result of the multi-threshold method detection
+		numq               Represents the result of a wavelet packet transform from one to five times (double-threshold)
+		nums                Indicates the result of the double threshold method detection
+		numy                Represents the original signal map of the synthesis
+	Statistical results:
+		"0" means the test result is correct
+		"1" indicates that the test result is incorrect (missing and false positive)
+
+
+The¡°Simulation result statistics¡±file is the statistics of the simulation results.
+	Simulation results(sheet1)	
+	Statistical results(sheet2)
